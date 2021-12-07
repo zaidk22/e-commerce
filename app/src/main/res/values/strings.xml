@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="e_commerce">E Commerce</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="read_storage_permission_denied">Oaps,you just denied the permission for storage
+        .You can also allow it from settings</string>
+    <string name="msg_profile_update_success" />
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="products">Products</string>
+    <string name="orders">Orders</string>
+    <string name="action_settings">settings</string>
+    <string name="image_selection_failed">Image selection failed</string>
+    <string name="price">Price</string>
+    <string name="product_name">Product Name</string>
+    <string name="amount" />
+    <string name="_0">0</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="e_commerc">E-Commerce</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="register">register</string>
+    <string name="textview">TextView</string>
+    <string name="see_if_it_is_available">See if It is available</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="buy">Buy</string>
+    <string name="login_with_Google">Login_with_google</string>
+    <string name="login_with_facebook">Login_with_facebook</string>
+    <string name="login_with_apple">Login_with_apple</string>
+<string name="default_web_client_id_auth" translatable="false">233241404325-8tlo482ks0p042c497450mpfturf1h3d.apps.googleusercontent.com</string>
+
+
+</resources>
