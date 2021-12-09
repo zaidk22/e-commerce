@@ -15,6 +15,7 @@ import com.example.e_commerce.ProductsAdapter
 import com.example.e_commerce.R
 import com.example.e_commerce.models.Constants
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.nav_header.*
 import kotlinx.android.synthetic.main.row_data.*
@@ -63,6 +64,9 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.nav_message-> Toast.makeText(this,"clicked message", Toast.LENGTH_SHORT).show()
                 R.id.nav_settings-> Toast.makeText(this,"clicked settings", Toast.LENGTH_SHORT).show()
+                R.id.nav_logout-> {FirebaseAuth.getInstance().signOut()
+                    startActivity(Intent(this,LoginActivity::class.java))}
+
 
             }
             true
