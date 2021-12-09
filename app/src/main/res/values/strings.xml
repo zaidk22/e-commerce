@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">E-Commerce</string>
     <string name="e_commerce">E Commerce</string>
     <string name="title_activity_maps">MapsActivity</string>
@@ -34,7 +34,11 @@
     <string name="login_with_Google">Login_with_google</string>
     <string name="login_with_facebook">Login_with_facebook</string>
     <string name="login_with_apple">Login_with_apple</string>
-<string name="default_web_client_id_auth" translatable="false">233241404325-8tlo482ks0p042c497450mpfturf1h3d.apps.googleusercontent.com</string>
+<string name="default_web_client_id_auth" > </string>
+    <string name="items">Items</string>
+    <string name="cart">cart</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
 
 
 </resources>

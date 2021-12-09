@@ -37,10 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_marginBottom="146dp"
         android:foregroundGravity="center"
         android:text="@string/see_if_it_is_available"
-        app:layout_constraintBottom_toTopOf="@+id/addtocart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,13 +48,15 @@
         android:id="@+id/addtocart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="208dp"
+        android:layout_marginBottom="144dp"
         android:foregroundGravity="center"
         android:text="@string/add_to_cart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_description"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button_Buy"
@@ -68,5 +68,20 @@
         app:layout_constraintEnd_toEndOf="@+id/addtocart"
         app:layout_constraintStart_toStartOf="@+id/addtocart"
         app:layout_constraintTop_toBottomOf="@+id/addtocart" />
+
+    <TextView
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_availability" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

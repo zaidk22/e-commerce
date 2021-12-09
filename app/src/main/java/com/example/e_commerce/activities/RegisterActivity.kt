@@ -25,6 +25,7 @@ class RegisterActivity : AppCompatActivity() {
         checkBox.setOnCheckedChangeListener { buttonView, isChecked ->
             Toast.makeText(this,isChecked.toString(),Toast.LENGTH_SHORT).show()
         }
+
         btn_register.setOnClickListener {
 
             if (et_email.text.toString().isNotEmpty() || et_password.text.toString().isNotEmpty()) {

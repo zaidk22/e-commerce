@@ -75,6 +75,7 @@ class UserProfileActivity : AppCompatActivity(), View.OnClickListener {
                     val mobileNumber = et_mobile_up.text.toString().trim { it <= ' ' }
                     val gender = if (rb_male.isChecked) {
                         Constants.MALE
+
                     } else {
                         Constants.FEMALE
                     }
@@ -99,12 +100,13 @@ class UserProfileActivity : AppCompatActivity(), View.OnClickListener {
         startActivity(Intent(this@UserProfileActivity, MainActivity::class.java))
         finish()
     }
+
 }
 
-    fun imageUploadSuccess(imageURL: String) {
+    /*fun imageUploadSuccess(imageURL: String) {
         Log.e("msg","image upload success")
     }
-
+*/
 
 
 // @RequiresApi(Build.VERSION_CODES.Q)

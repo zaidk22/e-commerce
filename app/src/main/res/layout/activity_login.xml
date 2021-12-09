@@ -128,7 +128,9 @@
         android:background="@drawable/button_bg"
         android:drawableStart="@drawable/common_google_signin_btn_icon_dark"
         android:text="@string/login_with_Google"
+        android:onClick="signIn"
         android:textSize="24sp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonlogin" />

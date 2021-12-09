@@ -24,6 +24,7 @@ class ProductsAdapter(var productsList: List<Products>):
             val intent = Intent(parent.context, DetailedActivity::class.java)
             intent.putExtra("title",productsList[holder.adapterPosition].name)
             intent.putExtra("ProductImage",productsList[holder.adapterPosition].image)
+            intent.putExtra("Description",productsList[holder.adapterPosition].description)
             parent.context.startActivity(intent)
         }
         return holder

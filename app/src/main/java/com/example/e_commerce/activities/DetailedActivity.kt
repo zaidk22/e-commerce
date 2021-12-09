@@ -24,6 +24,8 @@ class DetailedActivity : AppCompatActivity() {
 
 
         detailedTextView.text = title
+        val details = intent.getStringExtra("Description").toString()
+        et_description.text = details
 
 
 
